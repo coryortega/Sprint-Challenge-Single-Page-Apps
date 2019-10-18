@@ -7,7 +7,7 @@ import {
 const CharacterCard = props => {
   return (
     <div>
-      <Card>
+      <Card className = "card">
         <CardBody>
           <CardTitle><h2>{props.name}</h2></CardTitle>
         </CardBody>

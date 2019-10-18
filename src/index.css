@@ -37,3 +37,25 @@ main {
 header h1 {
   text-align: center;
 }
+
+.card {
+  width: 100%;
+}
+.contain {
+  margin: 1%
+}
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  text-align: center;
+}
+
+a {
+  margin: 1%;
+  text-decoration: none;
+  color: lime;
+  font-size: 1.5rem;
+}

@@ -43,7 +43,7 @@ export default function CharacterList() {
      </form>
     <section className="character-list">
       {characters.map(character => (
-        <div>
+        <div className = "contain">
         <CharacterCard
             name={character.name}
             image={character.image}
